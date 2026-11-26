@@ -1,0 +1,13 @@
+# Compiler and linker output
+*.o
+*.a
+*.so
+*.out
+
+# Project executables
+/bc
+/testlexer
+/testparser
+
+# Executables produced while testing generated programs
+/test programs/bin/

@@ -1,0 +1,9 @@
+.git
+*.o
+*.a
+*.so
+*.out
+bc
+testlexer
+testparser
+test programs/bin

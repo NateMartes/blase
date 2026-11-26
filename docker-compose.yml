@@ -1,0 +1,11 @@
+services:
+  arm-test:
+    platform: linux/arm64
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /workspace
+    volumes:
+      - "./test programs:/workspace/test programs"
+    stdin_open: true
+    tty: true
